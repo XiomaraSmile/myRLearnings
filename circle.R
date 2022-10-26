@@ -4,9 +4,9 @@
 
 #安装包
 #if(!requireNamespace("BiocManager", quietly = T))
-# install.packages("BiocManager", repos="https://cloud.r-project.org/", lib="myRPackages")  #首次执行需要
-# BiocManager::install("ComplexHeatmap", force = TRUE, lib="myRPackages") #首次执行需要
-# install.packages("circlize",  repos="https://cloud.r-project.org/", lib="myRPackages") #首次执行需要
+ install.packages("BiocManager", repos="https://cloud.r-project.org/", lib="myRPackages")  #首次执行需要
+ BiocManager::install("ComplexHeatmap", force = TRUE, lib="myRPackages") #首次执行需要
+ install.packages("circlize",  repos="https://cloud.r-project.org/", lib="myRPackages") #首次执行需要
 #加载包
 library(circlize, lib="myRPackages")
 library(ComplexHeatmap, lib="myRPackages")
